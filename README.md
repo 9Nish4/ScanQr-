@@ -17,7 +17,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
   - Simple responsive single web page using HTML, CSS. This UI is an scan QR card. 
-  - 
+
 ### Screenshot
 (https://user-images.githubusercontent.com/47062253/153715399-b25cbfd7-18fa-48cd-a019-45da3b5e3c2c.png)
 
