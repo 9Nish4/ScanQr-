@@ -1,0 +1,95 @@
+*{
+  margin: 0; 
+  padding: 0;
+  /*Setting the margin and padding. this overrides default setting set by the browser*/
+  box-shadow: border-box;  
+}
+html{
+  
+}
+body{
+  width: 100%;
+  min-height: 100vh;
+  /*setting the height and width to window screen*/
+}
+/* card color: #FEFFFD 
+bgcolor-#D5E1EF */
+.container{
+  background-color: #D5E1EF;
+  width: 95%;
+  min-height: 100vh;
+  position: relative;
+  margin: auto;
+}
+.card{
+  max-width: 21%;
+  height: 70vh;
+  background-color: #FEFFFD;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+  padding: 2%;
+}
+.card img{
+  display: block;
+  margin: 2% auto;
+  border-radius: 20px;
+ max-width: 100%;/*makes image responsive, check scaling*/
+
+}
+.content{
+  text-align: center;
+  padding: 5%;
+  line-height: 25px;
+}
+
+@media only screen and (min-width:1030px){
+  .card{
+    max-width: 21%;
+  }
+}
+@media only screen and (max-width:950px){
+  .card{
+    max-width: 25%;
+  }
+}
+@media only screen and (max-width:700px){
+  .card{
+    max-width: 35%;
+    height: 70vh;
+    }
+    
+}
+@media only screen and (max-width:480px){
+  
+  .card{
+    max-width: 45%;
+    height: 75vh;
+    left: 30%;
+top: 50%;
+transform: translate(-15%,-49%);
+
+  }
+}
+@media only screen and (max-width:400px){
+  .card{
+    max-width: 80%;
+    height: 80vh;
+    left: 25%;
+top: 50%;
+transform: translate(-15%,-49%);
+
+  }
+}
+@media only screen and (max-width:350px){
+  .card{
+    max-width: 80%;
+    height: 80vh;
+    left: 25%;
+top: 50%;
+transform: translate(-15%,-49%);
+
+  }
+}
