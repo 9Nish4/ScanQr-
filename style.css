@@ -5,12 +5,16 @@
   box-shadow: border-box;  
 }
 html{
-  
+  font-size: 15px;
+  font-weight: 400;
 }
 body{
   width: 100%;
   min-height: 100vh;
   /*setting the height and width to window screen*/
+}
+.head{
+  font-weight: 700;
 }
 /* card color: #FEFFFD 
 bgcolor-#D5E1EF */
